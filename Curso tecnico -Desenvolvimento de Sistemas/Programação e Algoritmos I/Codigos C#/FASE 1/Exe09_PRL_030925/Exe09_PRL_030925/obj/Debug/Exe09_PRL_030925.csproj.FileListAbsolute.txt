@@ -1,0 +1,7 @@
+C:\Users\alunoinfo\Desktop\Nova pasta\Exe09_PRL_030925\Exe09_PRL_030925\obj\Debug\Exe09_PRL_030925.csproj.AssemblyReference.cache
+C:\Users\alunoinfo\Desktop\Nova pasta\Exe09_PRL_030925\Exe09_PRL_030925\obj\Debug\Exe09_PRL_030925.csproj.CoreCompileInputs.cache
+C:\Users\alunoinfo\Desktop\Nova pasta\Exe09_PRL_030925\Exe09_PRL_030925\bin\Debug\Exe09_PRL_030925.exe.config
+C:\Users\alunoinfo\Desktop\Nova pasta\Exe09_PRL_030925\Exe09_PRL_030925\bin\Debug\Exe09_PRL_030925.exe
+C:\Users\alunoinfo\Desktop\Nova pasta\Exe09_PRL_030925\Exe09_PRL_030925\bin\Debug\Exe09_PRL_030925.pdb
+C:\Users\alunoinfo\Desktop\Nova pasta\Exe09_PRL_030925\Exe09_PRL_030925\obj\Debug\Exe09_PRL_030925.exe
+C:\Users\alunoinfo\Desktop\Nova pasta\Exe09_PRL_030925\Exe09_PRL_030925\obj\Debug\Exe09_PRL_030925.pdb

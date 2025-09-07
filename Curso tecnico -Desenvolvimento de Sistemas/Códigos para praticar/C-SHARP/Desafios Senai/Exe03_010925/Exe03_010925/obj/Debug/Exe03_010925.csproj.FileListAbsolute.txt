@@ -1,0 +1,8 @@
+C:\Users\valte\Desktop\Mil e um Códigos\Exercicios-de-Programacao\Desenvolvimento de Sistemas\Códigos para praticar\C-SHARP\Desafios Senai\Exe03_010925\Exe03_010925\bin\Debug\Exe03_010925.exe.config
+C:\Users\valte\Desktop\Mil e um Códigos\Exercicios-de-Programacao\Desenvolvimento de Sistemas\Códigos para praticar\C-SHARP\Desafios Senai\Exe03_010925\Exe03_010925\bin\Debug\Exe03_010925.exe
+C:\Users\valte\Desktop\Mil e um Códigos\Exercicios-de-Programacao\Desenvolvimento de Sistemas\Códigos para praticar\C-SHARP\Desafios Senai\Exe03_010925\Exe03_010925\bin\Debug\Exe03_010925.pdb
+C:\Users\valte\Desktop\Mil e um Códigos\Exercicios-de-Programacao\Desenvolvimento de Sistemas\Códigos para praticar\C-SHARP\Desafios Senai\Exe03_010925\Exe03_010925\obj\Debug\Exe03_010925.csproj.AssemblyReference.cache
+C:\Users\valte\Desktop\Mil e um Códigos\Exercicios-de-Programacao\Desenvolvimento de Sistemas\Códigos para praticar\C-SHARP\Desafios Senai\Exe03_010925\Exe03_010925\obj\Debug\Exe03_010925.csproj.CoreCompileInputs.cache
+C:\Users\valte\Desktop\Mil e um Códigos\Exercicios-de-Programacao\Desenvolvimento de Sistemas\Códigos para praticar\C-SHARP\Desafios Senai\Exe03_010925\Exe03_010925\obj\Debug\Exe03_010925.exe
+C:\Users\valte\Desktop\Mil e um Códigos\Exercicios-de-Programacao\Desenvolvimento de Sistemas\Códigos para praticar\C-SHARP\Desafios Senai\Exe03_010925\Exe03_010925\obj\Debug\Exe03_010925.pdb
+C:\Users\valte\Desktop\Mil e um Códigos\Exercicios-de-Programacao\Desenvolvimento de Sistemas\Códigos para praticar\C-SHARP\Desafios Senai\Exe03_010925\Exe03_010925\obj\Debug\Exe03_010925.exe.config

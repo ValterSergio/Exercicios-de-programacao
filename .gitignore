@@ -1,0 +1,8 @@
+*.mp4
+*.json
+*.exe
+*.class
+*.vscode
+*.json
+*.vs
+**/__pycache__/

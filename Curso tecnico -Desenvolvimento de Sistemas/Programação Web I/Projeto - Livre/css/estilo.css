@@ -1,0 +1,143 @@
+.cabecalho {
+    /* Classe cabeçalho é responsavel pela div que vai estilizar todos os cabeçalhos por padrão */
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr  1fr;
+    margin: 1px;
+    height: 10%;
+}
+.cabecalho header {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.cabecalho header h1 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-large;
+    /* background-color: rgb(152,130,223); */
+    border-radius: 35px;
+}
+.cabecalho header h1:hover {
+    color: rgb(152,130,223);
+}
+.cabecalho nav {
+    align-content: center;
+    text-align: center;
+}
+.cabecalho nav button {
+    background-color: transparent;
+    width: 80px;
+    height: 25px;
+    border-radius: 15px;
+}
+/* Mudar cor quando passar mouse */
+.cabecalho nav button:hover {
+    background-color: rgb(152,130,223);
+}
+.cabecalho nav button a {
+    font-size: 15px;
+    color: black;    
+}
+.cabecalho nav button a:hover {
+    color: rgb(248, 201, 219);
+}
+.conteudo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 3fr;
+    padding: 1px;
+    margin: 1px;
+    border: solid;
+}
+.conteudo_home {
+    margin: 1px;
+    padding: 1px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 5fr;
+    border: solid;
+}
+.conteudo_home h1 {
+    border: solid;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
+}
+.secao1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    justify-items: center;
+    align-items: start;
+    margin: 1px;
+}
+.secao1 h1 {
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
+    border: solid; 
+}
+.secao1 p {
+    font-size: x-large;
+    padding: 5px;
+    border: solid;
+    text-indent: 10px;
+    text-align: justify;
+}
+.secao1 ul li a {
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(20, 0, 85);
+}
+.secao1 ul li a:hover {
+    text-decoration: none;
+    color: black;
+}
+.secao2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin: 1px;
+    justify-items: center;
+}
+.secao2 h1 {
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
+}
+.secao2 ul li a {
+    font-size: x-large;
+    color: rgb(20, 0, 85);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.secao2 ul li a:hover {
+    text-decoration: none;
+    color: black;
+}
+.secao2 video {
+    width: 100%;
+    height: 30%;
+    border: solid;
+}
+
+.rodape {
+    margin: 1px;
+    padding: 1px;
+    height: 15%;
+}
+.rodape h3 {
+    text-align: justify;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 1px;
+}
