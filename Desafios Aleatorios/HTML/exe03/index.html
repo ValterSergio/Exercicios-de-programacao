@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/estilo.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <h1>Calcular Média do Aluno</h1><hr>
+        <div id="divForm">
+
+            <h3>Informe 3 notas de zero a dez</h3>
+            <form id="formNotas">
+                <hr>
+                <label for="n1">1° Nota: </label>
+                <input type="text" name="n1" id="n1" required> <br> <hr>
+                
+                <label for="n2">2° Nota: </label>
+                <input type="text" name="n2" id="n2" required>  <br> <hr>
+                
+                <label for="n3">3° Nota: </label>
+                <input type="text" name="n3" id="n3" required> <br> <hr>
+                
+                <input id="btnMedia" type="submit" value="Calcular Média" ">  <br>
+                <div id="resultado"></div>
+            </form>
+        </div>
+        <script src="js/calcular.js"></script>
+    </div>
+</body>
+</html>

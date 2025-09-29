@@ -1,0 +1,72 @@
+#container {
+    background-color: rgb(38, 236, 236);
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    
+}
+
+#header {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    
+    margin: 1%;
+    justify-items: center;
+    
+}
+
+#divForm {
+    margin: 1%;
+    
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    justify-items: center;
+}
+
+#secao {
+    
+    margin: 1%;
+    
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    justify-items: center;
+}
+li {
+    font-size: larger;
+}
+
+input {
+    background-color: transparent;
+    border-radius: 25px;
+}
+input:hover {
+    border-color: white;
+}
+button:hover {
+    border-color: white;
+}
+
+button {
+    background-color: transparent;
+    border-radius: 25px;
+}
+
+.tituloPadrao {
+    text-align: center;
+    font-size: 300%;
+}
+
+.subtituloPadrao {
+    font-size: x-large;
+}
+
+.paragrafoPadrao {
+    text-align: justify;
+    font-size: x-large;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+
+        <!-- Div do cabeçalho -->
+        <div id="header">
+            <header>
+                <h1 class="tituloPadrao">Sistema de Bônus Salarial</h1>
+                <p class="paragrafoPadrao">
+                    Crie um programa que calcule o bônus salarial de um funcionário com base no seu tempo de serviço
+                    e desempenho anual
+                </p>
+            </header>
+        </div>
+
+        <!-- Div do formulario -->
+        <div id="divForm">
+            <h3 class="subtituloPadrao">
+                Informe os dados
+            </h3>
+            <form id="formulario">
+                <label for="salarioBase">Salario Base: </label>
+                <input type="number" id="salarioBase" required> <br><br>
+
+                <label for="tempoServico">Tempo de Serviço: </label>
+                <input type="number" id="tempoServico" required> <br><br>
+
+                <label for="notaDesempenho">Nota de Desempenho: </label>
+                <input type="number" id="notaDesempenho" required> <br><br>
+
+                <button type="submit">Aperte Para Calcular Bônus</button>
+
+                <p id="resultado" class="paragrafoPadrao">
+
+                </p>
+            </form>
+            <script src="js/exe01.js"></script>
+        </div>
+
+        <!-- Div com as regras do programa -->
+        <div id="secao">
+            <section>
+                <h1 class="tituloPadrao">
+                    Regras para bônus salarial
+                </h1>
+                <h3 class="subtituloPadrao">
+                    Regras de bônus para tempo de serviço
+                </h3>
+                <ol>
+                    <li>
+                        Tempo de serviço menor que 3 anos, não recebe bônus.
+                    </li>
+                    <li>
+                        Tempo de serviço estiver entre 3 e 5 anos o bônus é de 5% do salario base.
+                    </li>
+                    <li>
+                        Tempo de serviço for maior que 5 anos, o bônus é de 10%.
+                    </li>
+                </ol>
+                <h3 class="subtituloPadrao">
+                    Regras por Desempenho
+                </h3>
+                <ol>
+                    <li>
+                        Se a nota de desempenho for menor que 4, o funcionário perde o bônus.
+                    </li>
+                    <li>
+                        Se nota estiver entre 4 e 7 o bônus permanece inalterado.
+                    </li>
+                    <li>
+                        Se for maior que 7 o bônus é dobrado.
+                    </li>
+                </ol>
+            </section>
+
+        </div>
+
+    </div>
+</body>
+</html>

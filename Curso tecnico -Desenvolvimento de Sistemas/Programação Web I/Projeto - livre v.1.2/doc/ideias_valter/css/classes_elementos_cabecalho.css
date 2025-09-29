@@ -1,0 +1,58 @@
+#headerCabecalho  {
+    background-color: transparent;
+}
+
+#headerCabecalho #imgSloganHeader {
+    background-color: transparent;
+}
+
+#headerCabecalho #tituloSite {
+    background-color: transparent;
+    
+    font-size: 400%;
+    text-align: center;
+    
+}
+
+#headerCabecalho #subTituloSite {
+    background-color: transparent;
+    font-size: 300%;
+    text-align: center;
+}
+
+#cabecalhoContainer #navCabecalho {
+    border-radius: 12px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* botões de navegação - estilo */
+.botaoNav, #botaoMenu {
+    background-color: #afb2ea;
+    color: white;
+    font-size: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+    /* Eu ainda prefiro quadradinho RSRS */
+    border: solid transparent; /* borda invisivel*/ 
+    border-radius: 20px; /* arredonda a borda */
+    cursor: pointer; /* Muda o cursor ao passar o mouse */
+    text-align: center; /* Centraliza o texto dentro do botão */
+    box-sizing: border-box; /* Inclui padding na largura total */
+    min-width: 80px; /* Evita que os botões fiquem muito pequenos */
+}

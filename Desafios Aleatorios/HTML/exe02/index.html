@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="cabecalho">
+        <header id="blocoHeader">
+            <h1 id="tituloPrincipal">COFRE FECHADO</h1>
+        </header>
+    </div>
+    
+    <div id="conteudo">
+        <main id="blocoMain">
+            <section>
+                <h1>
+                    Cofre Secreto
+                </h1>
+                <p>
+                    Informe a senha para abrir o cofre, você terá apenas 3 tentativas.
+                </p>
+                <p id="tentativas">Tentativas Restantes: 3</p>
+                <form id="formSenha">
+                    <label for="senhaUsuario">Senha: </label>
+                    <input type="password" name="" id="senhaUsuario" required placeholder="Digite a senha ...">  <button type="submit"> Confirmar</button>
+
+                </form>
+            </section>
+            
+        </main>
+        
+        <div id="exibirResultado">
+            <p id="resultado">
+            </p>
+            <figure>
+                <img src="img/cadeado_fechado.png" alt="cadeado fechado" id="imagemCadeado">
+            </figure>
+        </div>
+    </div>
+    <script src="js/exe02.js"></script>
+</body>
+</html>
