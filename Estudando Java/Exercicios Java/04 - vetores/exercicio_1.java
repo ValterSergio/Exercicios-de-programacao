@@ -20,5 +20,7 @@ public class exercicio_1 {
             System.out.printf(" %s ", nomesSimples[i]);
         }
         System.out.print("} ");
+
+        scanner.close();
     }
 }
