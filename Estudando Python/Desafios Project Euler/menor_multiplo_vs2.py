@@ -14,7 +14,7 @@ def executar():
 def encontrar_menor_numero(limite):
     resultado = 1
     for x in range(2, limite + 1):
-        resultado = MMC(resultado, x)  # Agora está correto
+        resultado = MMC(resultado, x)
         print(f"MMC -> Resultado: {resultado} | Valor Atual: {x}")
     return resultado
 
@@ -36,7 +36,7 @@ def MDC(a, b):
     
 
 def MMC(a, b):
-    return (a * b) // MDC(a, b)  # Usa divisão inteira
+    return (a * b) // MDC(a, b)
 
 
 if __name__ == "__main__":
