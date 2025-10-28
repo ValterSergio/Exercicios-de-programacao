@@ -1,0 +1,65 @@
+/* h1 {
+    color: #ff8801;
+} */
+.bordaTeste {
+    border: solid #ff8801 3px;
+}
+
+.margem5px {
+    margin: 5px;
+}
+
+.padding5px {
+    padding: 5px;
+}
+
+.cor1 {
+    border: solid greenyellow;
+    color: greenyellow;
+    background-color: green;
+}
+
+.cor2 {
+    border: solid green;
+    color: #008000;
+    background-color: greenyellow;
+}
+
+#acessoContainer {
+
+    display: grid;
+    grid-template: 1fr / 1fr 1fr;
+    
+}
+
+#botao1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    
+}
+
+#botao2 {
+
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+button {
+    margin: 1px;
+    border-radius: 25px;
+    transition: 1s;
+    width: 100%;
+    height: 100%;  
+}
+
+.titulo {
+    border-radius: 35px;
+}
+
+/* button:hover {
+    transition: 1s;
+    border-radius: 35px;
+    border: solid greenyellow;
+    color: greenyellow;
+    background-color: green;
+} */
